@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LifeScape About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Title</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="./css/responsive.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        $(".btn-click").on('click',function(){
+            $('.btn-click ul').fadeOut();
+            $(this).parent().find('.btn-click>ul').toggle();
+        });
+    });
+</script>
+<!--================
+  section header
+=================-->
+<section class="header lifescape-page">
+    <div class="container">
+        <div class="primary-container">
+            <div class="inner-container">
+                <div class="logo-container">
+                    <img src="./assets/images/logo.jpg">
+                    <div class="hamburger">
+                        <div id="nav-icon1">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondry-container">
+                    <button class="btn-blue">Add Moment</button>
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent" ><span>My LifeScape</span><i class="fa fa-angle-down"></i></button>
+                            <ul class="drop">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent"><span>Library</span><i class="fa fa-angle-down"></i></button>
+                            <ul class="drop">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-section">
+                <ul>
+                    <li><i class="fa fa-search"></i></li>
+                    <li><i class="fa fa-bell"></i></li>
+                    <li>
+                        <div class="dropdown-container profile-btn">
+                            <div class="btn-click">
+                                <button class="btn-dropdown border-btn bg-transparent">
+                                    <div class="rounded-image">
+                                        <img src="./assets/images/men.jpg">
+                                    </div>
+                                    <span>john doe</span><i class="fa fa-angle-down"></i>
+                                </button>
+                                <ul class="profile-view drop">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================
+  section-img
+=================-->
+<section class="section-img">
+    <div class="container">
+        <div class="img-wrapper">
+            <div>
+                <img src="assets/images/men.jpg">
+                <div class="opt-container">
+                    <h1>john Doe</h1>
+                    <h4>San Fransisco, CA</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================
+  services-section
+=================-->
+<section class="services-section">
+    <div class="container">
+        <div class="top-navigation">
+            <ul>
+                <li class="active"><a href="#">About</a></li>
+                <li><a href="#">Recent Activity</a></li>
+                <li><a href="#">Spectrum</a></li>
+                <li><a href="#">Time Matrix</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--=======
+  about
+===========-->
+<section class="about">
+    <div class="container">
+        <div class="main-div">
+            <!--- left side cards content --->
+            <div>
+                <div class="profile-main-wrapper page-two">
+                    <div class="img-text-outer">
+                        <h1>My Moments</h1>
+                        <div class="content-profile">
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p1.jpg">
+                                </div>
+                                <div>
+                                    <h1>Prodtesting</h1>
+                                    <h3>Posted by: <span>john Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p2.jpg">
+                                </div>
+                                <div>
+                                    <h1>Ordertesting</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p3.jpg">
+                                </div>
+                                <div>
+                                    <h1>Prodtesting</h1>
+                                    <h3>Posted by: <span>john Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p1.jpg">
+                                </div>
+                                <div>
+                                    <h1>Artical "Gandhi and the American Negroes</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p2.jpg">
+                                </div>
+                                <div>
+                                    <h1>Ordertesting</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p2.jpg">
+                                </div>
+                                <div>
+                                    <h1>Ordertesting</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p3.jpg">
+                                </div>
+                                <div>
+                                    <h1>Prodtesting</h1>
+                                    <h3>Posted by: <span>john Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p1.jpg">
+                                </div>
+                                <div>
+                                    <h1>Artical "Gandhi and the American Negroes</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                            <div class="img-text profile-other">
+                                <div>
+                                    <img src="assets/images/p2.jpg">
+                                </div>
+                                <div>
+                                    <h1>Ordertesting</h1>
+                                    <h3>Posted by: <span>Anna Doe</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- profile-main-wrapper -->
+            <div>
+                <div class="profile-main-wrapper  post-container">
+                    <div class="middle-container">
+                        <div class="img-text-outer">
+                            <div class="content-profile">
+                                <div class="img-text">
+                                    <div>
+                                        <img src="assets/images/men.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="description-text">
+                                    <div class="heading-text">
+                                         <div>
+                                             <h1>John Doe</h1>
+                                             <button class="edit-btn">edit</button>
+                                         </div>
+                                        <div>
+                                            <span>San Fransisco, CA, USA</span>
+                                            <span><a href="">info@gmail.com</a></span>
+                                            <span>+00 111 222 3333</span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the                                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and                                     scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into                                electronic typesetting, remaining essentially unchanged.
+                                      <br>
+                                      <br>
+                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the                                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and                                     scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release                                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.
+                                     </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <!-- invite friends -->
+                <div class="invite-friends">
+                    <div class="main-row m-0">
+                        <div class="col-content">
+                            <img class="img-responsive set-img" src="assets/images/friends.png">
+                            <div class="content">
+                                <span>Paul</span>
+                                <span><i class="fa fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-content">
+                            <img class="img-responsive set-img" src="assets/images/friends2.png">
+                            <div class="content">
+                                <span>Arya</span>
+                                <span><i class="fa fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-content">
+                            <p>Invite <br>Friends</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>

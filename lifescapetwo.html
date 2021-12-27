@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LifeScape page two</title>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Title</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        $(".btn-click").on('click',function(){
+            $('.btn-click ul').fadeOut();
+            $(this).parent().find('.btn-click>ul').toggle();
+        });
+    });
+</script>
+<section class="header lifescape-page">
+    <div class="container">
+        <div class="primary-container">
+            <div class="inner-container">
+                <div class="logo-container">
+                    <img src="./assets/images/logo.jpg">
+                </div>
+                <div class="secondry-container">
+                    <button class="btn-blue">Add Moment</button>
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent" ><span>My LifeScape</span><i class="fa fa-angle-down"></i></button>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent"><span>Library</span><i class="fa fa-angle-down"></i></button>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-section">
+                <ul>
+                    <li><i class="fa fa-search"></i></li>
+                    <li><i class="fa fa-bell"></i></li>
+                    <li>
+                        <div class="rounded-image">
+                            <img src="./assets/images/men.jpg">
+                        </div>
+                        <div class="dropdown-container profile-btn">
+                            <div class="btn-click">
+                                <button class="btn-dropdown border-btn bg-transparent"><span>john doe</span><i class="fa fa-angle-down"></i></button>
+                                <ul class="profile-view">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-img">
+    <div class="container">
+        <div class="img-wrapper">
+            <div>
+                <img src="assets/images/men.jpg">
+                <div class="opt-container">
+                    <h1>john Doe</h1>
+                    <h4>San Fransisco, CA</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-section">
+    <div class="container">
+        <div class="top-navigation">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recent Activity</a></li>
+                <li><a href="#">Spectrum</a></li>
+                <li class="active"><a href="#">Time Matrix</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-filters">
+    <div class="container">
+        <div class="filter-inner">
+            <div class="filter-txt">
+                <div>
+                    <button class="btn-dropdown btn-blue btn-life"><span>Add New Channel</span></button>
+                </div>
+                <div class="days-wrapper">
+                    <button class="btn-white ">days</button>
+                    <button class="btn-white btn-blu">Month</button>
+                    <button class="btn-white ">Year</button>
+                    <button class="btn-white ">Decade</button>
+                </div>
+            </div>
+            <div>
+                <div class="search-container">
+                    <input type="text" name="" placeholder="Search Moment"><i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="lifescape-page-two">
+    <div class="container">
+        <div class="primary-container">
+            <div>
+                <div class="checkbox border-red" onclick="clickfunction()">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-gray">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-green">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-orange">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-gray">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-blue">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="checkbox border-gray">
+                    <div>
+                        <label class="container-box">
+                            <span>Lorem Ipsum</span><span>100 items</span>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="circles-data">
+                <div id="create" class="dots">
+                  <div class="img-dot green-bg green1">
+                      <i class="fa fa-hand-pointer-o custom"></i>
+                      <div class="hidden-div">
+                          <img src="assets/images/p1.jpg">
+                          <div class="text-container">
+                              <p>Lorem Ipsum</p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="img-dot green-bg green2 ">
+                        <i class="fa fa-hand-pointer-o custom display-content"></i>
+                        <div class="hidden-div display-content">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green3">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green4">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green5">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green6">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green7">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green8">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot green-bg green9">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red1">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red2">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red3">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red4">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red5">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red6">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red7">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red8">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot red-bg red9">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue1">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue2">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue3">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue4">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue5">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot blue-bg blue6">
+                        <i class="fa fa-hand-pointer-o custom"></i>
+                        <div class="hidden-div">
+                            <img src="assets/images/p1.jpg">
+                            <div class="text-container">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange1">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange2">
+                        <div class="hidden-div img-outer display-content">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange3">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange4">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange5">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange6">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange7">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange8">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-dot orange-bg orange9">
+                        <div class="hidden-div img-outer">
+                            <div class="icon-div"><i class="fa fa-times" aria-hidden="true"></i></div>
+                            <div class="img-wrapper">
+                                <div><img src="assets/images/p1.jpg"></div>
+                                <div class="text-div">
+                                    <h5>set ut perspiciatis unde omnis iste natus dolar amit</h5>
+                                    <span>March 21, 2012</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn-blue">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>2018</h4>
+                    <form>
+                        <div class="slider">
+                            <div class="range">
+                                <div class="icontext" id="icontext">
+                                    <i class="fa fa-angle-up"></i>
+                                    <span id="demo"></span>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <input type="range" name="date" id="myRange" min="1987" max="2018" step="1" value="1998" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    var getdiv = document.getElementById("icontext");
+    output.innerHTML = slider.value;
+
+    function clickfunction() {
+        switch (output.innerHTML) {
+            case '1998':
+                var node = document.createElement("dv");
+                var textnode = document.createTextNode("Water");
+                node.appendChild(textnode);
+                document.getElementById("create").appendChild(node);
+                break;
+            default:
+                'not selected';
+        }
+    }
+    slider.oninput = function() {
+        output.innerHTML = this.value;
+        console.log(output.innerHTML);
+        if(output.innerHTML == ''){
+            output.innerHTML = '1991';
+        }
+        else if(output.innerHTML == 2018){
+            getdiv.style.right = '10px';
+        }
+        else if(output.innerHTML == 2017){
+            getdiv.style.right = '23px';
+        }
+        else if(output.innerHTML == 2016){
+            getdiv.style.right = '36px';
+        }
+        else if(output.innerHTML == 2015){
+            getdiv.style.right = '49px';
+        }
+        else if(output.innerHTML == 2014){
+            getdiv.style.right = '62px';
+        }
+        else if(output.innerHTML == 2013){
+            getdiv.style.right = '75px';
+        }
+        else if(output.innerHTML == 2012){
+            getdiv.style.right = '86px';
+        }
+        else if(output.innerHTML == 2011){
+            getdiv.style.right = '99px';
+        }
+        else if(output.innerHTML == 2010){
+            getdiv.style.right = '113px';
+        }
+        else if(output.innerHTML == 2009){
+            getdiv.style.right = '126px';
+        }
+        else if(output.innerHTML == 2008){
+            getdiv.style.right = '139px';
+        }
+        else if(output.innerHTML == 2007){
+            getdiv.style.right = '152px';
+        }
+        else if(output.innerHTML == 2006){
+            getdiv.style.right = '163px';
+        }
+        else if(output.innerHTML == 2005){
+            getdiv.style.right = '176px';
+        }
+        else if(output.innerHTML == 2004){
+            getdiv.style.right = '190px';
+        }
+        else if(output.innerHTML == 2003){
+            getdiv.style.right = '203px';
+        }
+        else if(output.innerHTML == 2002){
+            getdiv.style.right = '212px';
+        }
+        else if(output.innerHTML == 2001){
+            getdiv.style.right = '228px';
+        }
+        else if(output.innerHTML == 2000){
+            getdiv.style.right = '242px';
+        }
+        else if(output.innerHTML == 1999){
+            getdiv.style.right = '253px';
+        }
+        else if(output.innerHTML == 1998){
+            getdiv.style.right = '264px';
+        }
+        else if(output.innerHTML == 1997){
+            getdiv.style.right = '278px';
+        }
+        else if(output.innerHTML == 1996){
+            getdiv.style.right = '291px';
+        }
+        else if(output.innerHTML == 1995){
+            getdiv.style.right = '303px';
+        }
+        else if(output.innerHTML == 1994){
+            getdiv.style.right = '317px';
+        }
+        else if(output.innerHTML == 1993){
+            getdiv.style.right = '329px';
+        }
+        else if(output.innerHTML == 1992){
+            getdiv.style.right = '342px';
+        }
+        else if(output.innerHTML == 1991){
+            getdiv.style.right = '354px';
+        }
+        else if(output.innerHTML == 1990){
+            getdiv.style.right = '368px';
+        }
+        else if(output.innerHTML == 1989){
+            getdiv.style.right = '383px';
+        }
+        else if(output.innerHTML == 1988){
+            getdiv.style.right = '394px';
+        }
+        else if(output.innerHTML == 1987){
+            getdiv.style.right = '409px';
+        }
+    }
+</script>
+</body>
+</html>

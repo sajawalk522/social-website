@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LifeScape</title>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Title</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</head>
+<body>
+
+<script>
+    $(document).ready(function(){
+        $(".btn-click").on('click',function(){
+            $('.btn-click ul').fadeOut();
+            $(this).parent().find('.btn-click>ul').toggle();
+        });
+    });
+</script>
+<section class="header lifescape-page">
+    <div class="container">
+        <div class="primary-container">
+            <div class="inner-container">
+                <div class="logo-container">
+                    <img src="./assets/images/logo.jpg">
+                </div>
+                <div class="secondry-container">
+                    <button class="btn-blue">Add Moment</button>
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent" ><span>My LifeScape</span><i class="fa fa-angle-down"></i></button>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dropdown-container header-btn">
+                        <div class="btn-click">
+                            <button class="btn-dropdown btn-transparent"><span>Library</span><i class="fa fa-angle-down"></i></button>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-section">
+                <ul>
+                    <li><i class="fa fa-search"></i></li>
+                    <li><i class="fa fa-bell"></i></li>
+                    <li>
+                        <div class="rounded-image">
+                            <img src="./assets/images/men.jpg">
+                        </div>
+                        <div class="dropdown-container profile-btn">
+                            <div class="btn-click">
+                            <button class="btn-dropdown border-btn bg-transparent"><span>john Doe</span><i class="fa fa-angle-down"></i></button>
+                            <ul class="profile-view">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-img">
+    <div class="container">
+        <div class="img-wrapper">
+            <div>
+                <img src="assets/images/men.jpg">
+                <div class="opt-container">
+                    <h1>john Doe</h1>
+                    <h4>San Fransisco, CA</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-section">
+    <div class="container">
+        <div class="top-navigation">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recent Activity</a></li>
+                <li class="active"><a href="#">Spectrum</a></li>
+                <li><a href="#">Time Matrix</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-filters">
+    <div class="container">
+        <div class="filter-inner">
+            <div class="filter-txt">
+                <h1>Filters</h1>
+                <div class="dropdown-container lifescape-dropdown">
+                    <button class="btn-dropdown btn-blue"><span>My LifeScape</span><i class="fa fa-angle-down"></i></button>
+                    <ul style="display: none;">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">other</a></li>
+                    </ul>
+                </div>
+                <div class="days-wrapper">
+                    <button class="btn-white ">days</button>
+                    <button class="btn-white btn-blu">Month</button>
+                    <button class="btn-white ">Year</button>
+                    <button class="btn-white ">Decade</button>
+                </div>
+            </div>
+            <div>
+                <div class="search-container">
+                    <input type="text" name="" placeholder="Search Moment"><i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="time-line">
+    <div class="container">
+        <div class="time-line-wrapper">
+            <div class="header-wrapper"><h5>TIMELINE<span>MOMENTS</span></h5></div>
+            <div class="time-line-flex">
+                <div>
+                    <h5>2018</h5>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/men.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/men.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/men.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="time-line time-line-ex">
+    <div class="container">
+        <div class="time-line-wrapper">
+            <div class="header-wrapper"></div>
+            <div class="time-line-flex">
+                <div>
+                    <h5>2017</h5>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/men.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p1.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="time-line time-line-ex">
+    <div class="container">
+        <div class="time-line-wrapper">
+            <div class="header-wrapper"></div>
+            <div class="time-line-flex">
+                <div>
+                    <h5>2016</h5>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/men.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-flex">
+                <div>
+                    <div class="line-container">
+                        <div>
+                            <div class="triagle-container">
+                                <h6>Feburary</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-card">
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/p3.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/building.jpg">
+                                <div class="upper-container"><h3>Lorem Ipsum</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
